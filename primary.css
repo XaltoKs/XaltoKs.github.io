@@ -1,8 +1,7 @@
 nav 
 {
-  border: 1px solid black;
   text-align: center;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .btn 
@@ -51,6 +50,21 @@ nav
   background-color: rgb(82, 5, 88);
 }
 
+.contenu {
+  background-color: lightgray;
+  list-style-type:lower-roman;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+td+td+td {
+  background-color: rgb(211, 160, 112);
+  font-style: italic;
+  text-align: center;
+  padding: 5px;
+}
+
 nav ul 
 {
   list-style: none;
@@ -63,21 +77,8 @@ qu"un nom symbolique tel que btn
 
 nav>ul>li {
   display:inline-block;
-  border: 1px solid black;
 }
 
 nav>ul>li>ul {
   display: hidden;
 }
-/* selectionne les boutons films et jeux, mais moins évident a comprendre
-qu"un nom symbolique tel que btn 
-
-nav>ul>li {
-  display:inline-block;
-  border: 1px solid black;
-}
-
-nav>ul>li>ul {
-  display: hidden;
-}
-*/}
